@@ -7,7 +7,7 @@
   <body>
     @foreach ($comics as $comic)
       <div class="card">
-
+      
 
       <h3>{{$comic->title}}</h3>
       <img src="{{$comic->image}}" alt="">
